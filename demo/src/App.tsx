@@ -65,7 +65,7 @@ function App() {
               <Col span={18}>
                 <AntdInputMask
                   value={value}
-                  onChange={(e) => setValue(e.maskedValue)}
+                  onChange={(e: any) => setValue(e.maskedValue)}
                   mask={masks}
                   placeholder="Enter phone number"
                 />

@@ -1,6 +1,5 @@
 {
-  "buildCommand": "cd demo && npm install && npm run build",
+  "buildCommand": "cd lib && npm install && npm run build && cd ../demo && npm install && npm run build",
   "outputDirectory": "demo/dist",
-  "installCommand": "npm install --prefix demo",
-  "framework": "vite"
+  "installCommand": "npm install --prefix lib && npm install --prefix demo"
 }
