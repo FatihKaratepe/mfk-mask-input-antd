@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd lib && npm install && npm run build && cd ../demo && npm install && npm run build",
+  "buildCommand": "cd lib && npm install --legacy-peer-deps && npm run build && cd ../demo && npm install && npm run build",
   "outputDirectory": "demo/dist",
-  "installCommand": "npm install --prefix lib && npm install --prefix demo"
+  "installCommand": "npm install --prefix lib --legacy-peer-deps && npm install --prefix demo"
 }
