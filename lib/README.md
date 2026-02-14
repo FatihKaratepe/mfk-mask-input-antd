@@ -2,6 +2,9 @@
 
 A powerful and flexible masked input component for Ant Design built with [IMask](https://imask.js.org/).
 
+## 🚀 [**Live Demo →**](https://mfk-mask-input-antd.vercel.app/)
+## 🔗 [**HTML Input Variant**](https://www.npmjs.com/package/mfk-mask-input)
+
 ## Features
 
 - 🎭 **Flexible Masking** - Supports various mask patterns (phone, credit card, date, custom)
