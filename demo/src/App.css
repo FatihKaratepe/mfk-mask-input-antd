@@ -5,56 +5,98 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+
 @media (min-width: 476px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 }
+
 @media (min-width: 768px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 }
+
 @media (min-width: 476px) {
   .container {
     width: 100%;
   }
 }
+
 @media (min-width: 768px) {
   .container {
     width: 720px;
     max-width: 100%;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 960px;
     max-width: 100%;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1140px;
     max-width: 100%;
   }
 }
+
 @media (min-width: 1400px) {
   .container {
     width: 1340px;
     max-width: 100%;
+  }
+}
+
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
   }
 }
