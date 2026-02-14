@@ -82,7 +82,7 @@ function App() {
               </Col>
               <Col span={24}>
                 <h3>Only Number (max: 35)</h3>
-                <AntdInputMask mask={Number} maskOptions={{ max: 35 } as never} placeholder="You can enter only numbers" />
+                <AntdInputMask mask={Number} maskOptions={{ max: 35 } as never} placeholder="You can enter only numbers (max: 35)" />
               </Col>
             </Row>
           </Card>
@@ -129,7 +129,7 @@ function App() {
                 lazy: true,
                 overwrite: true,
               }}
-              placeholder="You can enter only numbers"
+              placeholder="YYYY-MM-DD"
             />
           </Card>
         </Col>
